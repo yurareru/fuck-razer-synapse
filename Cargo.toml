@@ -1,0 +1,8 @@
+[package]
+name = "fuck-razer-synapse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.31.2"
+winapi = { version = "0.3.9", features = ["wincon"] }
